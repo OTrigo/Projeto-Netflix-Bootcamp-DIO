@@ -1,0 +1,31 @@
+@media (max-width:700px){
+
+    header .container{
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    header nav a{
+        font-size: 1em;
+    }
+
+    .destaque{
+        font-size: 0.5em;
+    }
+
+    .titulo{
+        height: 50px;
+    }
+
+    .botoes-destaque{
+        flex-direction: column;
+        width: 50%;
+        height: 50%;        
+    }
+
+    .botoes-destaque .botao{
+        margin-top: 10px;
+        font-size: 1em;
+    }
+
+}
